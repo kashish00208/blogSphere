@@ -14,5 +14,12 @@ module.exports = {
       },
     },
   },
+  theme: {
+    extend: {
+      screens: {
+        'sm': '550px',
+      },
+    },
+  },
   plugins: [],
 };
