@@ -19,7 +19,6 @@ export default function page({ params }) {
   promise.then(
     function (response) {
       setblog(response.documents[0]);
-      console.log(response.documents[0]);
     },
     function (error) {
       console.log(error);
